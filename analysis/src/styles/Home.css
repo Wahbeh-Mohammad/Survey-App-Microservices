@@ -1,0 +1,25 @@
+.home {
+    height:100%;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    padding:2.5rem;
+}
+
+.surveys {
+    width: 100%;
+    padding:1.5rem;
+    display:grid;
+    gap:1rem;
+    grid-template-columns: 50% 50%;
+}

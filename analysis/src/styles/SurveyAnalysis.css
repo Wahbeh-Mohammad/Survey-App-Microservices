@@ -1,0 +1,48 @@
+.analysis {
+    height:100%;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.analysis-body {
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    padding:2rem;
+    width: 100%;
+}
+
+.questions {
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    width:100%;
+}
+
+.question-wrapper {
+    width:100%;
+    padding:1.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.survey-details {
+    padding:1.5rem;
+}
+
+.question {
+    flex:1;
+}
+
+.pie {
+    color: white !important;
+}
+
+.question-answer {
+    padding-left: 0.5rem;
+}
