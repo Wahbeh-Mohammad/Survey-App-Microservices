@@ -1,0 +1,22 @@
+.navbar {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    background: #ededed;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.user-info {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+.link {
+    text-decoration: none;
+}

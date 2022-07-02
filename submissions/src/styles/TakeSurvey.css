@@ -1,0 +1,44 @@
+.survey {
+    height:100%;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.survey-body {
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    padding:2rem;
+    margin:1rem;
+}
+
+.survey-details {
+    width:100%;
+    padding:1rem;
+}
+
+.survey-questions {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    padding:1rem;
+}
+
+.question {
+    padding:0.5rem;
+}
+
+.controls {
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    padding:1rem;
+}

@@ -1,0 +1,33 @@
+.create {
+    height:100%;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-body {
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+}
+
+.columns {
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-columns: 60% 40%;
+    padding:2.5rem;
+}
+
+.editor {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
