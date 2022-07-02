@@ -1,0 +1,24 @@
+version: "3.3"
+services:
+    submission:
+        build: ./submissions
+        ports:
+            - "3000:3000"
+    analysis:
+        build: ./analysis
+        ports:
+            - "3001:3001"
+    authentication:
+        build: ./authentication
+        network_mode: "host"
+    mysql_service:
+        build: ./mysql_service
+        network_mode: "host"
+    analytics_service:
+        build: ./analytics_service
+        network_mode: "host"
+    mongo_service:
+        build: ./mongodb_service
+        network_mode: "host"
+    
+    
