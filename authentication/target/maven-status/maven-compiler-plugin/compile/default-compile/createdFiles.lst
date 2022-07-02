@@ -1,0 +1,7 @@
+com/atypon/authentication/controllers/AuthenticationController.class
+com/atypon/authentication/repositories/UserRepository$2.class
+com/atypon/authentication/models/User.class
+com/atypon/authentication/repositories/UserRepository$1.class
+com/atypon/authentication/AuthenticationApplication.class
+com/atypon/authentication/repositories/model_mappers/UserMapper.class
+com/atypon/authentication/repositories/UserRepository.class
